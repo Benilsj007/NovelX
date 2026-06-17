@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20220217/pngtree-school-equipment-limited-time-special-school-promotion-background-image_953526.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.tt{
+    width:500px;
+    max-width:80%;
+    background: #ffffff33;
+    border-radius:10px;
+    margin-right: auto;
+    margin-left:90px;
+    margin-top: 90px;
+    max-height: 80vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+
+    backdrop-filter: blur(10px);
+}
+
+.tt h2{
+    position: sticky;
+    top: 0;
+    margin: 0 !important;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.tt form{
+    padding: 20px;
+}
+
+.tt label{
+    margin-bottom: 5px;
+    color:#333333;
+}
+
+form .form-control{
+    background: none;
+}
